@@ -1,19 +1,10 @@
 public class Planet {
-	/**
-	 * 	double xxPos: Its current x position
-	 *	double yyPos: Its current y position
-	 *	double xxVel: Its current velocity in the x direction
-	 *	double yyVel: Its current velocity in the y direction
-	 *	double mass: Its mass
-	 *	String imgFileName: The name of the file that corresponds to the image that depicts the planet 	
-	 *  public static final double G: Universal gravitational constant
-	 */
-	double xxPos;
-	double yyPos;
-	double xxVel;
-	double yyVel;
-	double mass;
-	String imgFileName;
+	public double xxPos;
+	public double yyPos;
+	public double xxVel;
+	public double yyVel;
+	public double mass;
+	public String imgFileName;
 
 	public Planet(double xP, double yP, double xV, double yV, double m, String img) {
 		this.xxPos = xP;

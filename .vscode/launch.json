@@ -1,0 +1,168 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DebugExercise1",
+            "request": "launch",
+            "mainClass": "DebugExercise1",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch In",
+            "request": "launch",
+            "mainClass": "In",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeapYear",
+            "request": "launch",
+            "mainClass": "LeapYear",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch NBody",
+            "request": "launch",
+            "mainClass": "NBody",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdAudio",
+            "request": "launch",
+            "mainClass": "StdAudio",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdDraw",
+            "request": "launch",
+            "mainClass": "StdDraw",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdOut",
+            "request": "launch",
+            "mainClass": "StdOut",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCalcDistance",
+            "request": "launch",
+            "mainClass": "TestCalcDistance",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCalcForceExertedBy",
+            "request": "launch",
+            "mainClass": "TestCalcForceExertedBy",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCalcForceExertedByXY",
+            "request": "launch",
+            "mainClass": "TestCalcForceExertedByXY",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCalcNetForceExertedByXY",
+            "request": "launch",
+            "mainClass": "TestCalcNetForceExertedByXY",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPlanetConstructor",
+            "request": "launch",
+            "mainClass": "TestPlanetConstructor",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestReadPlanets",
+            "request": "launch",
+            "mainClass": "TestReadPlanets",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestReadRadius",
+            "request": "launch",
+            "mainClass": "TestReadRadius",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestUpdate",
+            "request": "launch",
+            "mainClass": "TestUpdate",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicInDemo",
+            "request": "launch",
+            "mainClass": "examples.BasicInDemo",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch In(1)",
+            "request": "launch",
+            "mainClass": "examples.In",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch InDemo",
+            "request": "launch",
+            "mainClass": "examples.InDemo",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdDraw(1)",
+            "request": "launch",
+            "mainClass": "examples.StdDraw",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdDrawDemo",
+            "request": "launch",
+            "mainClass": "examples.StdDrawDemo",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdOut(1)",
+            "request": "launch",
+            "mainClass": "examples.StdOut",
+            "projectName": "CS61B_5c539ad9"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdRandom",
+            "request": "launch",
+            "mainClass": "examples.StdRandom",
+            "projectName": "CS61B_5c539ad9"
+        }
+    ]
+}
