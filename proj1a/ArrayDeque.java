@@ -9,7 +9,7 @@ public class ArrayDeque<T> {
         head = 0;
         tail = 0;
     }
-    private int CorrectIndex(int index){
+    private int CorrectIndex(int index) {
         if (index < 0) {
             return index + items.length;
         } else if (index >= items.length) {
@@ -23,17 +23,17 @@ public class ArrayDeque<T> {
         int j = head;
         for(int i = size - 1; i >= 0; i--) {
             a[i] = items[j];
-            j = CorrectIndex(j-1);
+            j = CorrectIndex(j - 1);
         }
         head = size - 1;
         tail = capacity - 1;
         items = a;
     }
     public void addFirst(T item) {
-        if(items.length == size){
+        if (items.length == size) {
             resize(size * 2);
         }
-        if(size == 0){
+        if (size == 0) {
             items[head] = item;
             tail = CorrectIndex(tail - 1);
         } else {
@@ -43,10 +43,10 @@ public class ArrayDeque<T> {
         size += 1;
     }
     public void addLast(T item) {
-        if(items.length == size){
+        if (items.length == size) {
             resize(size * 2);
         }
-        if(size == 0){
+        if (size == 0) {
             items[head] = item;
             tail = CorrectIndex(tail - 1);
         } else {
@@ -65,11 +65,11 @@ public class ArrayDeque<T> {
         int j = CorrectIndex(head);
         for(int i = 0; i < size; i++) {
             System.out.print(items[j] + " ");
-            j = CorrectIndex(j-1);
+            j = CorrectIndex(j - 1);
         }
     }
     public T removeFirst() {
-        if(size == 0) {
+        if (size == 0) {
             return null;
         }
         T res = items[head];
@@ -81,7 +81,7 @@ public class ArrayDeque<T> {
         return res;
     }
     public T removeLast() {
-        if(size == 0) {
+        if (size == 0) {
             return null;
         }
         T res = items[CorrectIndex(tail + 1)];
@@ -92,7 +92,7 @@ public class ArrayDeque<T> {
         }
         return res;
     }
-    public T get(int index){
+    public T get(int index) {
         if(size == 0 || index < 0 || index >= size) {
             return null;
         }

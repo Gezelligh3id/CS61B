@@ -45,13 +45,13 @@ public class LinkedListDeque<T> {
     }
     public void printDeque() {
         Node tmp = head.next;
-        while(tmp.next != null) {
+        while (tmp.next != null) {
             System.out.print(tmp.value + " ");
             tmp = tmp.next;
         }
     }
     public T removeFirst() {
-        if(size == 0){
+        if (size == 0){
             return null;
         }
         T ans = (T) head.next.value;
@@ -61,12 +61,13 @@ public class LinkedListDeque<T> {
         return ans;
     }
     public T removeLast() {
-        if(size == 0) {
+        if (size == 0) {
             return null;
         }
         T ans = (T) tail.prev.value;
         tail.prev = tail.prev.prev;
         tail.prev.next = tail;
+        size--;
         return ans;
     }
     public T get(int index) {

@@ -54,11 +54,8 @@ public class ArrayDequeTest {
     public void testAddFirst2() {
         ArrayDeque<Integer> arr1 = new ArrayDeque<>();
         arr1.addLast(0);
-        arr1.addLast(1);
-        arr1.addLast(2);
-        arr1.addLast(3);
-        arr1.addLast(4);
         arr1.removeLast();
+        System.out.println(arr1.isEmpty());
     }
 
     @Test

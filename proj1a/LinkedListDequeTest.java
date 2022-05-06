@@ -1,8 +1,3 @@
-
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-
 /** Performs some basic linked list tests. */
 public class LinkedListDequeTest {
 	public static boolean checkEmpty(boolean expected, boolean actual) {
