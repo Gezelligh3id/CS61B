@@ -51,7 +51,7 @@ public class LinkedListDeque<T> {
         }
     }
     public T removeFirst() {
-        if (size == 0){
+        if (size == 0) {
             return null;
         }
         T ans = (T) head.next.value;
@@ -71,14 +71,14 @@ public class LinkedListDeque<T> {
         return ans;
     }
     public T get(int index) {
-        if(index < 0 || index >= size) {
+        if (index < 0 || index >= size) {
             return null;
         }
-        if(size == 0) {
+        if (size == 0) {
             return null;
         }
         Node tmp = head.next;
-        for(int i = 0; i < index; i++) {
+        for (int i = 0; i < index; i++) {
             tmp = tmp.next;
         }
         return (T) tmp.value;
