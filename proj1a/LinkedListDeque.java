@@ -60,7 +60,7 @@ public class LinkedListDeque<T> {
         return ans;
     }
     public T removeLast() {
-        if(size == 0){
+        if(size == 0) {
             return null;
         }
         T ans = (T) head.value;
