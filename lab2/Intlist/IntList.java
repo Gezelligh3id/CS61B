@@ -105,13 +105,13 @@ public class IntList {
             tmp = tmp.rest;
             ptr = ptr.rest;
         }
-        tmp.rest = B;
-//        ptr = B;
-//        while(ptr != null){
-//            tmp.rest = new IntList(ptr.first, null);
-//            tmp = tmp.rest;
-//            ptr = ptr.rest;
-//        }
+        //tmp.rest = B;
+        ptr = B;
+        while(ptr != null){
+            tmp.rest = new IntList(ptr.first, null);
+            tmp = tmp.rest;
+            ptr = ptr.rest;
+        }
         return res;
     }
 
