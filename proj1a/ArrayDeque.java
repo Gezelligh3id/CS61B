@@ -1,66 +1,59 @@
-public class ArrayDeque<T> {
-    private T[] items;
-    private int size;
-    public ArrayDeque() {
-        items = (T[]) new Object[8];
-        size = 0;
-    }
-    public void resize(int capacity) {
-        T[] a = (T[]) new Object[capacity];
-        System.arraycopy(items, 0, a, 0, size);
-        items = a;
-    }
-    public void addFirst(T item) {
-        T[] a = (T[]) new Object[items.length + 1];
-        System.arraycopy(items, 0, a, 1, size);
-        items = a;
-        items[0] = item;
-        size += 1;
-    }
-    public void addLast(T item) {
-        if(size == items.length) {
-            resize(size*2);
-        }
-        items[size] = item;
-        size += 1;
-    }
-    public boolean isEmpty() {
-        return size == 0;
-    }
-    public int size() {
-        return size;
-    }
-    public void printDeque() {
-        for(int i = 0; i < size; i++) {
-            System.out.print(items[i] + " ");
-        }
-    }
-    public T removeFirst() {
-        if(size == 0) {
-            return null;
-        }
-        T ans = items[0];
-        T[] a = (T[]) new Object[items.length - 1];
-        System.arraycopy(items, 1, a, 0, size-1);
-        items = a;
-        size -= 1;
-        return ans;
-    }
-    public T removeLast() {
-        if(size == 0) {
-            return null;
-        }
-        T ans = items[size - 1];
-        size -= 1;
-        if(size >= 16 && size <= items.length * 0.25){
-            resize(items.length / 2);
-        }
-        return ans;
-    }
-    public T get(int index){
-        if(index < 0 || index >= size){
-            return null;
-        }
-        return items[index];
-    }
-}
+//public class ArrayDeque<T> {
+//    private T[] items;
+//    private int size;
+//    private int head;
+//    private int tail;
+//    public ArrayDeque() {
+//        items = (T[]) new Object[8];
+//        size = 0;
+//        head = 0;
+//        tail = 0;
+//    }
+//    public int CorrectIndex(int index){
+//        if (index < 0) {
+//            return index + size;
+//        } else if (index > size) {
+//            return index - size;
+//        } else {
+//            return index;
+//        }
+//    }
+//    public void resize(int capacity) {
+//        T[] a = (T[]) new Object[capacity];
+//        if (tail < head) {
+//           for(int i = 0; i <= tail; i++) {
+//               a[i + size] = items[i];
+//           }
+//           for(int i = head; i <= size-tail; i++){
+//               a[]
+//           }
+//        }
+//    }
+//    public void addFirst(T item) {
+//        if(items.length == size){
+//            resize(size * 2);
+//        }
+//        head = CorrectIndex(head-1);
+//        items[head] = item;
+//    }
+//    public void addLast(T item) {
+//
+//    }
+//    public boolean isEmpty() {
+//        return size == 0;
+//    }
+//    public int size() {
+//        return size;
+//    }
+//    public void printDeque() {
+//        for(int i = 0; i < size; i++) {
+//            System.out.print(items[i] + " ");
+//        }
+//    }
+//    public T removeFirst() {
+//    }
+//    public T removeLast() {
+//    }
+//    public T get(int index){
+//    }
+//}
