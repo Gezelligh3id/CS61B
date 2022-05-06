@@ -53,12 +53,12 @@ public class ArrayDequeTest {
     @Test
     public void testAddFirst2() {
         ArrayDeque<Integer> arr1 = new ArrayDeque<>();
-        arr1.addFirst(0);
-        arr1.addFirst(1);
-        assertEquals(0, (int) arr1.removeLast());
-        assertEquals(1, (int) arr1.removeLast());
+        arr1.addLast(0);
+        arr1.addLast(1);
+        arr1.addLast(2);
+        arr1.addLast(3);
+        arr1.addLast(4);
         arr1.removeLast();
-        assertEquals(true, arr1.isEmpty());
     }
 
     @Test

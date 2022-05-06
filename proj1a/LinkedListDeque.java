@@ -13,24 +13,25 @@ public class LinkedListDeque<T> {
     private Node tail;
     private int size;
     public LinkedListDeque() {
-        head = new Node(0);
-        tail = new Node(0);
+        head = new Node(99);
+        tail = new Node(99);
         head.next = tail;
         tail.prev = head;
         size = 0;
     }
-    Node dummyHead = new Node(null);
     public void addFirst(T item) {
         Node tmp = new Node(item);
         Node next = head.next;
         head.next = tmp;
         tmp.next = next;
+        next.prev = tmp;
         tmp.prev = head;
         size += 1;
     }
     public void addLast(T item) {
         Node tmp = new Node(item);
         Node prev = tail.prev;
+        prev.next = tmp;
         tail.prev = tmp;
         tmp.next = tail;
         tmp.prev = prev;
@@ -63,7 +64,7 @@ public class LinkedListDeque<T> {
         if(size == 0) {
             return null;
         }
-        T ans = (T) head.value;
+        T ans = (T) tail.prev.value;
         tail.prev = tail.prev.prev;
         tail.prev.next = tail;
         return ans;

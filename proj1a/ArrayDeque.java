@@ -9,7 +9,7 @@ public class ArrayDeque<T> {
         head = 0;
         tail = 0;
     }
-    public int CorrectIndex(int index){
+    private int CorrectIndex(int index){
         if (index < 0) {
             return index + items.length;
         } else if (index >= items.length) {
@@ -18,7 +18,7 @@ public class ArrayDeque<T> {
             return index;
         }
     }
-    public void resize(int capacity) {
+    private void resize(int capacity) {
         T[] a = (T[]) new Object[capacity];
         int j = head;
         for(int i = size - 1; i >= 0; i--) {
