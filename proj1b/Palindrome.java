@@ -30,7 +30,7 @@ public class Palindrome {
         Deque<Character> words = wordToDeque(word);
         return isSame2(words, cc);
     }
-    public boolean isSame2(Deque words, CharacterComparator cc) {
+    private boolean isSame2(Deque words, CharacterComparator cc) {
         if (words.size() == 0 || words.size() == 1) {
             return true;
         }
