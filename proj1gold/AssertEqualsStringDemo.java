@@ -1,6 +1,5 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
-
 /** Demos the version of assertEquals with a String message. */
 public class AssertEqualsStringDemo {
     @Test
@@ -13,7 +12,7 @@ public class AssertEqualsStringDemo {
     }
 
     /** This main method is optional. */
-    public static void main(String[] args) {
-        jh61b.junit.TestRunner.runTests(AssertEqualsStringDemo.class);
-    }
+//    public static void main(String[] args) {
+//        jh61b.junit.TestRunner.runTests(AssertEqualsStringDemo.class);
+//    }
 } 

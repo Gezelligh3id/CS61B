@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c8fc3ea-7c15-459e-a00d-8e73e1182053" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/StdOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/StdRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/TestArrayDequeGold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/out/production/proj1gold/proj1gold.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj1gold/proj1gold.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/.idea/libraries/algs4__.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/lib/algs4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/out/production/proj2/proj2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj2/proj2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1gold/AssertEqualsStringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1gold/AssertEqualsStringDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="296rvq4CAXGRTZlfKtrjbE6KxPu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5c8fc3ea-7c15-459e-a00d-8e73e1182053" name="变更" comment="" />
+      <created>1652444611431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652444611431</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
